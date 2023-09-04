@@ -1,0 +1,48 @@
+{
+    "name": "DecorateLib",
+    "author": "Suu",
+    "version": "1.0.0",
+    "description": "Provides dependency injection, function / class decoraters.",
+    "savedVariables": "DecorateLib_SavedVariables",
+    "repository": "https://github.com/DomenikIrrgang/DecorateLib",
+    "license": "MIT",
+    "keywords": [
+        "dependency injection",
+        "decorator"
+    ],
+    "gameVersions": [
+        "wotlk"
+    ],
+    "srcPath": "src",
+    "buildPath": "C:\\Program Files (x86)\\World of Warcraft\\_classic_\\Interface\\AddOns\\DecorateLib",
+    "dependencies": [
+        {
+            "name": "AceAddon-3.0",
+            "source": "https://repos.wowace.com/wow/ace3/trunk",
+            "type": "svn",
+            "path": "AceAddon-3.0",
+            "version": "200"
+        },
+        {
+            "name": "Libstub",
+            "source": "https://repos.wowace.com/wow/ace3/trunk",
+            "type": "svn",
+            "path": "LibStub",
+            "version": "HEAD"
+        },
+        {
+            "name": "CallbackHandler-1.0",
+            "source": "https://repos.wowace.com/wow/ace3/trunk",
+            "type": "svn",
+            "path": "CallbackHandler-1.0",
+            "version": "HEAD"
+        },
+        {
+            "name": "DecorateLib",
+            "source": "https://github.com/DomenikIrrgang/DecorateLib",
+            "type": "git",
+            "version": "main"
+        }
+    ],
+    "devDependencies": {}
+}
