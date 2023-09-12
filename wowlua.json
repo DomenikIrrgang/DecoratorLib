@@ -11,7 +11,8 @@
         "decorator"
     ],
     "gameVersions": [
-        "wotlk"
+        "wotlk",
+        "classic"
     ],
     "srcPath": "src",
     "buildPath": "C:\\Program Files (x86)\\World of Warcraft\\_classic_\\Interface\\AddOns\\DecorateLib",
@@ -38,10 +39,18 @@
             "version": "HEAD"
         },
         {
-            "name": "DecorateLib",
-            "source": "https://github.com/DomenikIrrgang/DecorateLib",
+            "name": "AceDB-3.0",
+            "source": "https://github.com/WoWUIDev/Ace3",
             "type": "git",
-            "version": "main"
+            "path": "AceDB-3.0",
+            "version": "Release-r1309"
+        },
+        {
+            "name": "AceConsole-3.0",
+            "source": "https://github.com/WoWUIDev/Ace3",
+            "type": "git",
+            "path": "AceConsole-3.0",
+            "version": "master"
         }
     ],
     "devDependencies": {}

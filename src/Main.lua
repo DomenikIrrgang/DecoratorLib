@@ -1,5 +1,5 @@
 --@FileGameVersion wotlk
-DependencyInjector = LibStub("AceAddon-3.0"):NewAddon("DependencyInjector", "AceConsole-3.0", "AceEvent-3.0", "AceHook-3.0")
+DependencyInjector = {}
 
 DependencyInjector.Modes = {
     DEBUG = 1,
