@@ -3,7 +3,7 @@
     "author": "Suu",
     "version": "1.0.0",
     "description": "Provides dependency injection, function / class decoraters.",
-    "savedVariables": "DecorateLib_SavedVariables",
+    "savedVariables": ["DecorateLib_SavedVariables"],
     "repository": "https://github.com/DomenikIrrgang/DecorateLib",
     "license": "MIT",
     "keywords": [
@@ -15,7 +15,7 @@
         "classic"
     ],
     "srcPath": "src",
-    "buildPath": "C:\\Program Files (x86)\\World of Warcraft\\_classic_\\Interface\\AddOns\\DecorateLib",
+    "buildPath": "build",
     "dependencies": [
         {
             "name": "AceAddon-3.0",
